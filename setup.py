@@ -43,7 +43,6 @@ setup(
         'setuptools',
         'z3c.autoinclude',
         'Plone',
-        'Products.ResourceRegistries>=2.1a1',
     ],
     extras_require={
         'test': ['plone.app.testing']
