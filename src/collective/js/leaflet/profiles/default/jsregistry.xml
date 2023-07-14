@@ -25,9 +25,21 @@
       />
 
   <javascript
+      bundle="leaflet.markercluster"
+      id="++resource++collective.js.leaflet.plugins/Leaflet.MarkerCluster.PlacementStrategies/dist/leaflet-markercluster.placementstrategies.js"
+      insert-after="++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet.markercluster.js"
+      cacheable="True"
+      compression="none"
+      cookable="True"
+      inline="False"
+      enabled="True"
+      expression=""
+      />
+
+  <javascript
       bundle="leaflet.fullscreen"
       id="++resource++collective.js.leaflet.plugins/leaflet.fullscreen/Control.FullScreen.js"
-      insert-after="++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet.markercluster.js"
+      insert-after="++resource++collective.js.leaflet.plugins/Leaflet.MarkerCluster.PlacementStrategies/dist/leaflet-markercluster.placementstrategies.js"
       cacheable="True"
       compression="safe"
       cookable="True"
