@@ -18,7 +18,7 @@
     <value key="js">++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet.markercluster.js</value>
   </records>
 
-  <records prefix="plone.resources/leaflet-markercluster"
+  <records prefix="plone.resources/leaflet-markercluster-placementstrategies"
            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
     <value key="js">++resource++collective.js.leaflet.plugins/Leaflet.MarkerCluster.PlacementStrategies/dist/leaflet-markercluster.placementstrategies.js</value>
   </records>
@@ -146,6 +146,7 @@
     <value key="resources" purge="false">
       <element>leaflet</element>
       <element>leaflet-markercluster</element>
+      <element>leaflet-markercluster-placementstrategies</element>
       <element>leaflet-fullscreen</element>
       <element>leaflet-zoomfs</element>
       <element>leaflet-geosearch</element>
