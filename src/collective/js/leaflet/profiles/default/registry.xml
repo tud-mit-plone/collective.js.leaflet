@@ -15,7 +15,12 @@
       <element>++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/MarkerCluster.css</element>
       <element>++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/MarkerCluster.Default.css</element>
     </value>
-    <value key="js">++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet.markercluster-src.js</value>
+    <value key="js">++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet.markercluster.js</value>
+  </records>
+
+  <records prefix="plone.resources/leaflet-markercluster"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++resource++collective.js.leaflet.plugins/Leaflet.MarkerCluster.PlacementStrategies/dist/leaflet-markercluster.placementstrategies.js</value>
   </records>
 
   <records prefix="plone.resources/leaflet-fullscreen"

@@ -3,6 +3,7 @@
 
   <javascript remove="True" id="++resource++collective.js.leaflet/leaflet.js"/>
   <javascript remove="True" id="++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet.markercluster.js"/>
+  <javascript remove="True" id="++resource++collective.js.leaflet.plugins/Leaflet.markercluster/dist/leaflet-markercluster.placementstrategies.js"/>
   <javascript remove="True" id="++resource++collective.js.leaflet.plugins/leaflet.fullscreen/Control.FullScreen.js"/>
   <javascript remove="True" id="++resource++collective.js.leaflet.plugins/leaflet.zoomfs/leaflet.zoomfs.js"/>
   <javascript remove="True" id="++resource++collective.js.leaflet.plugins/L.GeoSearch/src/js/l.control.geosearch.js"/>
